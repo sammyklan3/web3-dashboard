@@ -1,0 +1,137 @@
+.settings-container {
+  display: flex;
+  gap: 15px;
+  height: 100vh;
+  width: 100%;
+  padding: 0 5px;
+}
+
+.sidebar-container {
+  background-color: rgb(36, 34, 34);
+  height: 98%;
+  border-radius: 10px;
+  margin: auto;
+  width: 19em;
+  padding: 10px;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.logo {
+  font-size: 50px;
+}
+
+.settings-container ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.sidebar-container a {
+    text-decoration: none;
+}
+
+.main-container {
+  padding: 5px;
+  width: 100%;
+}
+.user-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.notification-icon {
+  font-size: 30px;
+  background-color: rgb(39, 38, 38);
+  border-radius: 10px;
+  padding: 2px 10px;
+}
+
+.avatar-username {
+  font-size: 20px;
+  color: white;
+}
+
+.avatar-container{
+  display: flex;
+  gap: 10px;
+  align-items: center ;
+}
+.avatar-container img {
+  border-radius: 50%;
+  height: 100px;
+  border: 1px solid gray;
+  padding: 5px;
+}
+
+.balance-container p{
+  color: white;
+  font-size: 28px;
+}
+
+.coin-prices-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.coin-price-container {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(36, 35, 35);
+  padding: 20px 10px;
+  border-radius: 15px;
+  gap: 10px;
+  width: 14em;
+}
+
+.coin-price-container-avatar {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.coin-price-container-avatar-img {
+  height: 60px;
+}
+
+.coin-price-container-avatar-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.market-container {
+  background-color: rgb(32, 32, 32);
+  border-radius: 10px;
+  padding: 10px;
+  height: 100%;
+}
+
+.market-container-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.market-container-title-time {
+  background-color: rgb(20, 20, 20);
+  padding: 7px;
+  border-radius: 10px;
+  display: flex;
+  gap: 15px;
+}
+
+.right-side-nav {
+  background-color: rgb(32, 32, 32);
+  width: 18em;
+  height: 98%;
+  margin: auto;
+  border-radius: 10px;
+  padding: 10px;
+}
